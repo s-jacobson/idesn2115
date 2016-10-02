@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+    font-family: Didot, serif;
+}
+p {
+    color: #333333;
+    font-size: 16px;
+}
+h1 {
+    color: #333333;
+    font-size: 32px;
+    text-align: center;
+}
+h2 {
+    color: #333333;
+    font-size: 18px;
+}
+a {
+    color: #40382B;
+    font-size: 14px;
+}
+ul, ol {
+    color: #666666;
+    font-size: 14px;
+}
+hr {
+    width: 800px;
+}
