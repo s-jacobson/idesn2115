@@ -11,13 +11,13 @@ h2 {
     margin-top: -12px;
 }
 h3 {
-    color: gray;
-    color: black;
+    color: #aaaaaa;
     font-family: Verdana, sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
 /*    visibility: hidden;*/
+    display: none;
 }
 .stanza1_5_7 {
     font-family: Helvetica, sans-serif;
@@ -31,9 +31,12 @@ h3 {
 }
 .stanza3_6_9 {
     color: deeppink;
-    font-family: Courier, serif;
+    font-family: Courier, monospace;
     font-size: 14px;
 }
 p::first-line {
     text-transform: uppercase;
+}
+.stanza1_5_7, .stanza3_6_9, .stanza2_4_8 {
+    color: black;
 }
