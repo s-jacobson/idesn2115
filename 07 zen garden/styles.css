@@ -10,7 +10,7 @@
 
 /* basic elements */
 body { 
-	font-family: "Avenir", "Helvetica", sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #555; 
 	background: url(https://static1.squarespace.com/static/53f25ad8e4b004191e60d7d1/541627ffe4b0e4b35f91ed08/5483073ae4b034a63cc1180f/1417876182412/?format=1500w) no-repeat 100% top fixed;
 	}
@@ -41,7 +41,7 @@ abbr {
 	}
 /* specific divs */
 .page-wrapper {     
-    background-color: rgba(96,146,166,.6);
+    background-color: rgba(96,146,166,.75);
 	padding: 0 0px 0 40px;  
 	margin: 10px; 
     margin-right: 600px;
