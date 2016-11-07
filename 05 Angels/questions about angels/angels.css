@@ -1,0 +1,42 @@
+/* Put your CSS here. */
+h1 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: -12px;
+}
+h3 {
+    color: #aaaaaa;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+/*    visibility: hidden;*/
+    display: none;
+}
+.stanza1_5_7 {
+    font-family: Helvetica, sans-serif;
+    color: green;
+    font-size: 14px;
+}
+.stanza2_4_8 {
+    font-family: Georgia, serif;
+    color: darkblue;
+    font-size: 14px;
+}
+.stanza3_6_9 {
+    color: deeppink;
+    font-family: Courier, monospace;
+    font-size: 14px;
+}
+p::first-line {
+    text-transform: uppercase;
+}
+.stanza1_5_7, .stanza3_6_9, .stanza2_4_8 {
+    color: black;
+}
