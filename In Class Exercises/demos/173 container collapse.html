@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>173 container collapse.html</title>
+        <style type="text/css">
+
+            body {
+                margin: 0px ;
+                background-color: #fef3e9 ;
+            }
+
+            .red {
+                background: red;        
+            }
+
+            .green {
+                background: green;
+            }
+
+            .blue {
+                background: blue;
+            }
+
+            .shared {
+                width: 150px ;
+                height: 150px;
+                padding: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+                float: left;
+            }
+            
+            .container {
+                background-color: #ccc ;
+                width: 800px ;
+/*                float: left;*/
+/*                overflow: auto;*/
+            }
+            
+            .container:after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            /* 
+            
+            to avoid container collapse...
+            
+            + clear child elements that appear below floated elements. clear: both (re-establishes normal flow).
+            
+            + set the overflow property of the parent container to either Hidden, Auto, or Scroll. overflow property: when the contents of a box no longer fits inside of it. overflow: auto works 90% of the time.
+            
+            + set a float value on the containing element itself.
+
+            + use the "clearfix" method: https://css-tricks.com/snippets/css/clear-fix/
+            
+            */
+            
+            .cleared {
+                clear: both;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="red shared">&nbsp;</div>
+            <div class="green shared">&nbsp;</div>
+            <div class="blue shared">&nbsp;</div>
+<!--            <p class="cleared">whatever</p>-->
+        </div>
+    </body>
+</html>
