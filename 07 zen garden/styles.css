@@ -3,22 +3,116 @@ body {
     background-image: url("Images/zen_background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 h1 {
-    color: #333333;
+    color: #0d1316;
     font-weight: 100;
     font-size: 40px;
+    background-color: #d4d3b7;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid #282828;
+    padding: 16px 120px 0px 120px;
+    position: fixed;
+    top: -34px;
+    left: 0px;
+    z-index: 1;
 }
 
 h2 {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #333333;
+    margin-top: 110px;
 }
 
-h3
+h2, .summary {
+    width: 500px;
+}
+
+h3 {
+    color: #454a49;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements {
+    background-color: #edf0e3;
+    padding: 0px 14px 0px 14px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 500px;
+    border: .25px solid #282828;
+    border-radius: 3px;
+}
+
+.explanation {
+    float: right;
+    position: relative;
+    top: -402px;
+    left: auto;
+}
+
+.requirements {
+    float: right;
+    position: relative;
+    top: -716px;
+    left: auto;
+}
+
+p {
+    color: #676766;
+    font-weight: 100;
+}
 
 css-zen-garden {
     position: fixed;
+}
+
+a:link {
+    color: #7298a0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #D38F81;
+}
+
+.sidebar {
+    background-color: #0d1316;
+    padding: 2px 14px 4px 14px;
+    border-radius: 3px;
+    margin-top: 48px;
+    color: #edf0e3;
+    font-weight: 100;
+}
+
+h3.select, h3.archives, h3.resources {
+    color: #edf0e3;
+    font-weight: 100;
+}
+
+.design-archives {
+    float: right;
+    position: relative;
+    bottom: 272px;
+    right: auto;
+}
+
+.zen-resources {
+    float: right;
+    position: relative;
+    bottom: 272px;
+    right: -420px;
+}
+
+footer {
+    visibility: hidden;
 }
