@@ -1,0 +1,219 @@
+body {
+    font-family: 'Aref Ruqaa', serif;
+}
+
+header {
+    font-size: 1.25em;
+    color: #fff;
+    padding: 8px 40px 0px 0px;
+    position: fixed;
+}
+
+.container-head {
+    background-color: #000;
+    height: 56px;
+    width: 1280px;
+    padding: 8px 60px 8px 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: fixed;
+}
+
+button.nav-link {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 1em;
+    background-color: #187993;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 18px;
+    float: right;
+    position: fixed;
+    right: 56px;
+    top: 23px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+}
+
+li {
+    float: right;
+    padding-right: 4%;
+}
+
+li.nav-blog {
+    position: fixed;    
+    right: 240px;
+    top: 28px;;
+}
+
+li.nav-about {
+    position: fixed;    
+    right: 300px;
+    top: 28px;
+}
+
+li.nav-tips {
+    position: fixed;    
+    right: 372px;
+    top: 28px;
+}
+
+li.nav-images {
+    position: fixed;    
+    right: 428px;
+    top: 28px;
+}
+
+.button-link {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 1.2em;
+    background-color: #187993;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 20px 8px 20px;
+    margin-left: 56px;
+}
+
+.welcome-title {
+    font-size: 2em;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    margin-left: 56px;
+}
+
+.welcome {
+    width: 500px;
+    margin-left: 56px;
+    margin-bottom: 30px;    
+}
+
+.blog-title {
+    font-size: 2em;
+/*    margin-bottom: 18px;*/
+    float: right;
+    position: relative;
+    right: 382px;
+    top: -164px;
+}
+
+.blog-aug {
+    width: 500px;
+    float: right;
+    position: relative;
+    right: -120px;
+    top: -110px;
+}
+
+.blog-jul {
+    width: 500px;
+    float: right;
+    position: relative;
+    right: -620px;
+    top: -90px;
+}
+
+.blog-jun {
+    width: 500px;
+    float: right;
+    position: relative;
+    right: 52px;
+    top: -82px;
+}
+
+.about-title {
+    font-size: 2em;
+    padding-top: 84px;
+    margin-left: 56px;
+}
+
+.about-details-1 {
+    margin-top: 10px;
+    margin-left: 56px;
+    width: 500px;
+}
+
+.about-details-2 {
+    margin-top: 16px;
+    margin-left: 56px;
+    width: 500px;
+}
+
+.about-quote {
+    font-family: "Helvetica", sans-serif;
+    font-size: .75em;
+    margin-top: 40px;
+    margin-left: 56px;
+    width: 500px;
+}
+
+.recent-styles-title {
+    font-size: 2em;
+    padding-top: 84px;
+    margin-left: 56px;
+}
+
+
+
+.container-footer {
+    background-color: #000;
+    padding-left: 56px;
+    padding-top: 28px;
+    color: #fff;
+    font-size: .75em;
+    height: 46px;
+    width: 1280px;
+    margin-top: 390px;
+}
+
+.footer-space {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 560px;
+}
+
+.footer-phone {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 1000px;
+}
+
+.footer-space-about {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 1126px;
+}
+
+.footer-phone-about {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 1034px;
+}
+
+.footer-space-styles {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 524px;
+}
+
+.footer-phone-styles {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 436px;
+}
